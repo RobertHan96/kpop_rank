@@ -14,6 +14,8 @@
 		040FA41024BD7C8300E82EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FA40E24BD7C8300E82EE2 /* LaunchScreen.storyboard */; };
 		040FA41B24BD7C8300E82EE2 /* KpopRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FA41A24BD7C8300E82EE2 /* KpopRankTests.swift */; };
 		040FA42624BD7CBF00E82EE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040FA42524BD7CBF00E82EE2 /* GoogleService-Info.plist */; };
+		0E2B4A7AA37534575A6D2A98 /* Pods_KpopRankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653161A147C42838F4D2FA80 /* Pods_KpopRankTests.framework */; };
+		6629F1D12FD0E5384A684F55 /* Pods_KpopRank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4DE05D435822FC3C4B1C4A /* Pods_KpopRank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,12 @@
 		040FA41A24BD7C8300E82EE2 /* KpopRankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpopRankTests.swift; sourceTree = "<group>"; };
 		040FA41C24BD7C8300E82EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040FA42524BD7CBF00E82EE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15527168BBE1E8150575521B /* Pods-KpopRank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopRank.debug.xcconfig"; path = "Target Support Files/Pods-KpopRank/Pods-KpopRank.debug.xcconfig"; sourceTree = "<group>"; };
+		308905B79478F05A1197FE4A /* Pods-KpopRankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopRankTests.debug.xcconfig"; path = "Target Support Files/Pods-KpopRankTests/Pods-KpopRankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4DE05D435822FC3C4B1C4A /* Pods_KpopRank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KpopRank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653161A147C42838F4D2FA80 /* Pods_KpopRankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KpopRankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973F1562C9C5B52F44BB6DD3 /* Pods-KpopRankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopRankTests.release.xcconfig"; path = "Target Support Files/Pods-KpopRankTests/Pods-KpopRankTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAB37DBBD99984D263EC1C16 /* Pods-KpopRank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KpopRank.release.xcconfig"; path = "Target Support Files/Pods-KpopRank/Pods-KpopRank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6629F1D12FD0E5384A684F55 /* Pods_KpopRank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2B4A7AA37534575A6D2A98 /* Pods_KpopRankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +75,8 @@
 				040FA40224BD7C8000E82EE2 /* KpopRank */,
 				040FA41924BD7C8300E82EE2 /* KpopRankTests */,
 				040FA40124BD7C8000E82EE2 /* Products */,
+				AA3F92C80962B507089CADFB /* Pods */,
+				FCED14EC38C75EAD12632C6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,27 @@
 			path = KpopRankTests;
 			sourceTree = "<group>";
 		};
+		AA3F92C80962B507089CADFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15527168BBE1E8150575521B /* Pods-KpopRank.debug.xcconfig */,
+				CAB37DBBD99984D263EC1C16 /* Pods-KpopRank.release.xcconfig */,
+				308905B79478F05A1197FE4A /* Pods-KpopRankTests.debug.xcconfig */,
+				973F1562C9C5B52F44BB6DD3 /* Pods-KpopRankTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCED14EC38C75EAD12632C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4DE05D435822FC3C4B1C4A /* Pods_KpopRank.framework */,
+				653161A147C42838F4D2FA80 /* Pods_KpopRankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040FA41F24BD7C8300E82EE2 /* Build configuration list for PBXNativeTarget "KpopRank" */;
 			buildPhases = (
+				1EF8E779B7D4B4684BF02E45 /* [CP] Check Pods Manifest.lock */,
 				040FA3FC24BD7C8000E82EE2 /* Sources */,
 				040FA3FD24BD7C8000E82EE2 /* Frameworks */,
 				040FA3FE24BD7C8000E82EE2 /* Resources */,
+				AC64862731F8E1EBA6ACBB9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040FA42224BD7C8300E82EE2 /* Build configuration list for PBXNativeTarget "KpopRankTests" */;
 			buildPhases = (
+				60CB2279CF3D227D2D2D97D7 /* [CP] Check Pods Manifest.lock */,
 				040FA41224BD7C8300E82EE2 /* Sources */,
 				040FA41324BD7C8300E82EE2 /* Frameworks */,
 				040FA41424BD7C8300E82EE2 /* Resources */,
@@ -195,6 +231,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EF8E779B7D4B4684BF02E45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KpopRank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CB2279CF3D227D2D2D97D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KpopRankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC64862731F8E1EBA6ACBB9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KpopRank/Pods-KpopRank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KpopRank/Pods-KpopRank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KpopRank/Pods-KpopRank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		040FA3FC24BD7C8000E82EE2 /* Sources */ = {
@@ -360,6 +460,7 @@
 		};
 		040FA42024BD7C8300E82EE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15527168BBE1E8150575521B /* Pods-KpopRank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +480,7 @@
 		};
 		040FA42124BD7C8300E82EE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB37DBBD99984D263EC1C16 /* Pods-KpopRank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +500,7 @@
 		};
 		040FA42324BD7C8300E82EE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308905B79478F05A1197FE4A /* Pods-KpopRankTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -420,6 +523,7 @@
 		};
 		040FA42424BD7C8300E82EE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973F1562C9C5B52F44BB6DD3 /* Pods-KpopRankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
