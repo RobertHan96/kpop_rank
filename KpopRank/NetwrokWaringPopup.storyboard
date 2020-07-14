@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Netwrok Waring Popup-->
+        <scene sceneID="bXa-Cn-41s">
+            <objects>
+                <viewController storyboardIdentifier="netwrokWaring" id="vww-zt-wme" customClass="NetwrokWaringPopup" customModule="MyRanks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h1Z-jN-FmW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s5J-lr-Oy0">
+                                <rect key="frame" x="20" y="264.5" width="374" height="105"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFx-qW-by3">
+                                        <rect key="frame" x="40" y="61" width="294" height="34"/>
+                                        <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="0.54000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <state key="normal" title="확인">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneBtn:" destination="vww-zt-wme" eventType="touchUpInside" id="7xV-vK-abd"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="네트워크 연결상태를 확인해주세요" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzP-eJ-LzZ">
+                                        <rect key="frame" x="20" y="20" width="334" height="21"/>
+                                        <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="0.54000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="tzP-eJ-LzZ" secondAttribute="trailing" constant="20" id="4dU-NZ-C8f"/>
+                                    <constraint firstItem="gFx-qW-by3" firstAttribute="top" secondItem="tzP-eJ-LzZ" secondAttribute="bottom" constant="20" id="4xr-8m-98Y"/>
+                                    <constraint firstItem="tzP-eJ-LzZ" firstAttribute="top" secondItem="s5J-lr-Oy0" secondAttribute="top" constant="20" id="E0f-EH-TOM"/>
+                                    <constraint firstAttribute="bottom" secondItem="gFx-qW-by3" secondAttribute="bottom" constant="10" id="IGZ-0T-Rye"/>
+                                    <constraint firstItem="gFx-qW-by3" firstAttribute="leading" secondItem="s5J-lr-Oy0" secondAttribute="leading" constant="40" id="LOw-py-dvc"/>
+                                    <constraint firstAttribute="trailing" secondItem="gFx-qW-by3" secondAttribute="trailing" constant="40" id="fr7-U5-X2m"/>
+                                    <constraint firstItem="tzP-eJ-LzZ" firstAttribute="leading" secondItem="s5J-lr-Oy0" secondAttribute="leading" constant="20" id="wjq-EK-Amh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="0.103515625" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rrf-Vv-vdL" firstAttribute="trailing" secondItem="s5J-lr-Oy0" secondAttribute="trailing" constant="20" id="L3F-mA-p62"/>
+                            <constraint firstItem="s5J-lr-Oy0" firstAttribute="leading" secondItem="rrf-Vv-vdL" secondAttribute="leading" constant="20" id="RfM-XS-3OT"/>
+                            <constraint firstItem="s5J-lr-Oy0" firstAttribute="centerY" secondItem="rrf-Vv-vdL" secondAttribute="centerY" multiplier="0.7" id="yUF-yk-e0S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rrf-Vv-vdL"/>
+                    </view>
+                    <connections>
+                        <outlet property="netwrokStatusLabel" destination="tzP-eJ-LzZ" id="5f4-5R-1q8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="weo-hq-pdu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1813.0434782608697" y="16.741071428571427"/>
+        </scene>
+    </scenes>
+</document>
